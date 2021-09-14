@@ -1,0 +1,159 @@
+* 
+{
+    box-sizing: border-box;
+    font-family: 'Times New Roman',Times,  serif;
+}
+
+h1 
+{
+    color: midnightblue;
+    font-size: 70px;
+    text-align: center;
+}
+
+section
+{
+    
+    border: 1px solid black;    
+    margin: 3%;
+    background-color: bisque;
+    color: #0a0a36;
+    overflow: auto;
+}
+
+h2 
+{
+    float: right;
+    border:1px solid black;
+    color: black;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 40%;
+    text-align: center;
+}
+
+
+
+#part1-name 
+{
+    position: relative;
+    background-color: #69bfe2;
+    height: auto;
+}
+#part1
+{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    text-align: justify;
+    
+}
+
+
+#part2-name 
+{
+   height: auto;
+    background-color: #31ff31;
+}
+#part2
+{
+   padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+     text-align: justify;
+}
+
+#part3-name 
+{
+     height: auto;
+    background-color: #69bfe2;
+    width: 50%;
+}
+#part3
+{
+  padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+     text-align: justify;
+}
+
+
+/********** Desktop version **********/
+@media (min-width: 992px) 
+{
+     .col-lg-4, .col-lg-6, .col-lg-12 
+    {
+      float: left;
+      padding: 5px;
+    
+    }
+    .col-lg-4 
+    {
+      width: 33.33%;
+    }
+   
+    .col-lg-6 
+    {
+      width: 50%;
+    }
+   
+    .col-lg-12 
+    {
+      width: 100%;
+    }
+    
+}
+  
+  /********** Tablet version **********/
+  @media (min-width: 768px) and (max-width: 991px) 
+  {
+     .col-md-4,  .col-md-6,  .col-md-12 
+      {
+      float: left;
+      padding: 15px;
+     }
+  
+    .col-md-4 
+      {
+      width: 33.33%;
+    }
+   
+    .col-md-6 
+      {
+      width: 50%;
+    }
+    
+    .col-md-12 
+      {
+      width: 100%;
+    }
+}
+
+  /********** Mobile version **********/
+  @media (max-width: 767px) 
+  {
+     .col-sm-4,  .col-sm-6, .col-sm-12 
+      {
+      float: left;
+      padding: 5px;
+    }
+  
+    .col-sm-4 
+      {
+      width: 33.33%;
+    }
+   
+    .col-sm-6 
+      {
+      width: 50%;
+    }
+ 
+    .col-sm-12 
+      {
+      width: 100%;
+    }
+}
