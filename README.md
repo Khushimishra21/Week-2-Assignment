@@ -1,0 +1,2 @@
+# Week-2-Assignment
+HTML CSS JS COURSE WEEK 2 ASSIGNMENT
